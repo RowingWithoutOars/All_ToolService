@@ -791,6 +791,3 @@ def chinese2id(texts, word2id, lang='zh'):
 
 if __name__ == "__main__":
     a = test_rouge('./', ['this is a good !'], ['this is so nice !'])
-    # cand_path = "/home/vrlab/gzzh/PyCharm/Text_Generation/TextSummarization/extract_sum/textrank_bcp.src"
-    # ref_path = "/home/vrlab/gzzh/DATA/bcp/test.tgt"
-    # test_rouge('./', cand_path, ref_path)
