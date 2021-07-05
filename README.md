@@ -1,3 +1,3 @@
 # All_ToolService
 这里总结一些小工具->  
-1、文本自动摘要在线评估[link]  
+1、[文本自动摘要在线评估](https://blog.csdn.net/wr339988/article/details/70165090)  
