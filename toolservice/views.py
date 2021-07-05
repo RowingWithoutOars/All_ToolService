@@ -33,8 +33,9 @@ def hello(request):
 from toolservice.tools.rouge_metric import test_rouge
 def use_rouge(request):
     content = eval(request.body)
-    cand = content['cand'].split('\n')
-    ref = content['ref'].split('\n')
+    print(content)
+    cand = content['candidates'].split('\n')
+    ref = content['refrences'].split('\n')
     lang = 'zh'
     a = test_rouge(cand, ref, lang)
-    return JsonResponse(a)
+    return JsonResponse({'data':a})
